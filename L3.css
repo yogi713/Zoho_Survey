@@ -1,0 +1,106 @@
+body{
+        font-family: Montserrat,sans-serif;
+            font-weight: 400;
+             font-size : 17px;
+             height : 1000px;
+             overflow-x: hidden;
+    }
+p{
+        margin : 0px;
+        paddding : 0px;
+        color: #646d8c ;
+}
+.header{
+        display : flex;
+        flex-direction : column;
+        justify-content : center;
+        align-items : center;
+}
+
+.zoho_logo{
+    width : 200px;
+}
+.div{
+        display : flex;
+        border : solid 2px white;
+        justify-content : center;
+        width: 100vw; 
+}
+
+.div div{
+        margin-bottom : 22px;
+}
+
+.form{
+        /* border : solid 1px green;  */
+}
+.input1, .select, input, .gender, .exp, .ctc, .notice,  .vacancy, .preferred{
+        padding-left : 10px;
+        padding-right : 10px;
+        width : 43vw;
+        border: solid 1px lightblue;
+        height : 35px;
+        border-radius : 5px;
+        background-color : white;
+}
+input:focus, .select:focus, .gender:focus, .exp:focus, .ctc:focus, .notice:focus{
+        outline : none;
+        border: solid 2px #285cc3;
+}
+
+input{
+        width : 50vw;
+}
+.select{
+        width : 100px;
+        height : 34px;
+}
+.gender, .exp, .ctc, .notice, .vacancy, .preferred{
+        width : 50vw;
+}
+.uploadResume{
+        color : #e96064; 
+        font-size :20px ;
+        margin-bottom : 10px;
+}
+#resume{
+        /*visibility:hidden; */
+        border : none;
+}
+
+.button1, .button2{
+        background-color : #ce5255;
+        padding: 10px 15px 10px 15px;
+        font-size : 17px; 
+        color: white;
+        border : solid 1px white;
+        border-radius : 5px;
+}
+.buttons{
+        display:flex;
+        flex-direction: column;
+        justify-content : space-around;
+        
+}
+.button1{
+        background-color: white;   
+        color: black;
+        border : solid 1px #dee4f0;      
+        cursor : pointer;
+}
+.button1:hover{
+        background-color: #bdc7db;
+}
+.button2{
+        cursor : pointer;
+}
+.footer{
+        display:flex;
+        justify-content : center;
+}
+.poweredby{
+        margin  : 5px 5px 0px 0px;        
+}
+.zohorecruit{
+        width : 100px;
+}
